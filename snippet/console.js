@@ -42,3 +42,13 @@ for(let count =0; count > 4; count ++){
   let result= console.count()
   console.log(result)
 }
+
+
+// console.trace 
+// function initial(){
+//     function inner(){
+//         console.trace()
+//     }
+//     inner()
+// }
+// initial()
