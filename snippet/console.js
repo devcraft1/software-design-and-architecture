@@ -6,8 +6,6 @@ console.info(console.info())
 console.debug(console.debug())
 
 
-
-
 // using console.table 
 
 function Name (first, last){
