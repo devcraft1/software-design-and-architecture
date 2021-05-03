@@ -4,7 +4,7 @@ Hey! Programming is problem solving right? Having this mindset gives us broad vi
 
 This repository gives a comprehensive view of problems and possible solutions with javascript programming language.
 
-It is open to criticism and contribution as well. Do well to give a tip on how to make better this project.
+It is open to contrustive criticism and contribution. Do well to give a tip on how to make better this project.
 
-Thank Ya
+Thank You
 
