@@ -1,4 +1,5 @@
-/* Non-mutating: These are array methods that do not change the original array rather return a new array.
+/* Non-mutating 
+These are array methods that do not change the original array instead return a new array.
 They include:
 1. ForEach
 2. Concat
@@ -9,6 +10,8 @@ They include:
 7. Some
 8. Filter
 9. Reduce
+10. LastIndexOf
+11. Slice
 */
 
 // FOR EACH
@@ -39,3 +42,7 @@ colors.forEach(function(color, index, sourceArr) {
 // FILTER
 
 // REDUCE
+
+// LASTINDEXOF
+
+// SLICE

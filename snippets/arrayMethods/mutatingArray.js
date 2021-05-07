@@ -5,12 +5,25 @@ They include:
 2. pop
 3. shift
 4. unshift
+5. sort
+6. reverse
+7. splice
 */
 
 // PUSH
+
 // POP
+
 // SHIFT
+
 // UNSHIFT
+
+// SORT
+
+// REVERSE
+
+// SPLICE
+
 
 
 
