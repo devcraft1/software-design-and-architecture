@@ -1,8 +1,14 @@
-/* Non-mutating Arrays have the ability to modify the original and return a new array
+/* Non-mutating: These are array methods that do not change the original array rather return a new array.
 They include:
 1. ForEach
-2. Map
-3. 
+2. Concat
+3. Join
+4. Map
+5. IndexOf
+6. Every
+7. Some
+8. Filter
+9. Reduce
 */
 
 // FOR EACH
@@ -17,3 +23,19 @@ let colors = ['red', 'blue', 'green'];
 colors.forEach(function(color, index, sourceArr) {
 	console.log(index, color, sourceArr,)
 });
+
+// CONCAT
+
+// JOIN
+
+// MAP
+
+// INDEXOF
+
+// EVERY
+
+// SOME
+
+// FILTER
+
+// REDUCE
