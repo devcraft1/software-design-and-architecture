@@ -29,8 +29,17 @@ colors.forEach(function(color, index, sourceArr) {
 
 // CONCAT
 
-// JOIN
+let arr1 = [0, 1, 2];
+let arr2 = [3, 5, 7];
+let primes = arr1.concat(arr2);
+console.log(primes)
 
+// JOIN
+var array = ["Joe", "Kevin", "Peter"];
+array.join(); 
+array.join("-"); 
+array.join(""); 
+array.join(". "); 
 // MAP
 
 // INDEXOF
