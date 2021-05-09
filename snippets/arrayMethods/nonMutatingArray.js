@@ -28,7 +28,6 @@ colors.forEach(function(color, index, sourceArr) {
 });
 
 // CONCAT
-
 let arr1 = [0, 1, 2];
 let arr2 = [3, 5, 7];
 let primes = arr1.concat(arr2);
@@ -40,7 +39,18 @@ array.join();
 array.join("-"); 
 array.join(""); 
 array.join(". "); 
+
 // MAP
+const posts = [
+	{ id: 1, title: " 1", description: "" },
+	{ id: 2, title: "2", description: "." },
+	{ id: 3, title: "3", description: "..." },
+  ];
+  // ES2016+
+  // Create new array of post IDs. I.e. [1,2,3]
+  const postIds = posts.map((post) => post.id);
+  // Create new array of post objects. I.e. [{ id: 1, title: "Sample Title 1" }]
+  const postSummaries = posts.map((post) => ({ id: post.id, title: post.title }));
 
 // INDEXOF
 
