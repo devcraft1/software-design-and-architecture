@@ -53,12 +53,24 @@ const posts = [
   const postSummaries = posts.map((post) => ({ id: post.id, title: post.title }));
 
 // INDEXOF
+const imageList = [
+	{value: 100},
+	{value: 200},
+	{value: 300},
+	{value: 400},
+	{value: 500}
+ ];
+ const index = imageList.findIndex(img => img.value === 200);
+ console.log(index)
 
 // EVERY
 
 // SOME
 
 // FILTER
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+const result = words.filter(word => word.length > 6);
+console.log(result);
 
 // REDUCE
 
