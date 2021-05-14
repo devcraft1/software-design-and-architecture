@@ -90,6 +90,24 @@ console.log(array1.reduce(reducer));
 console.log(array1.reduce(reducer, 5));
 
 // LASTINDEXOF
+// number
+var numbers = [2, 5, 9, 2];
+const xy = numbers.lastIndexOf(2);
+console.log(xy);
+numbers.lastIndexOf(7);
+numbers.lastIndexOf(2, 3);
+numbers.lastIndexOf(2, 2);
+numbers.lastIndexOf(2, -2);
+numbers.lastIndexOf(2, -1);
+
+// string
+const animals = ["Dodo", "Tiger", "Penguin", "Dodo"];
+
+console.log(animals.lastIndexOf("Dodo"));
+// expected output: 3
+
+console.log(animals.lastIndexOf("Tiger"));
+// expected output: 1
 
 // SLICE
 const str = "The quick brown fox jumps over the lazy dog.";
