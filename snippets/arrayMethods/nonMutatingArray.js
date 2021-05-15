@@ -64,6 +64,13 @@ const index = imageList.findIndex((img) => img.value === 200);
 console.log(index);
 
 // EVERY
+[12, 5, 8, 130, 44].every((elem) => elem >= 10); // false
+[12, 54, 18, 130, 44].every((elem) => elem >= 10); // true
+
+const age = [2, 7, 12, 17, 21];
+age.every(function (person) {
+  return person > 18;
+}); //false
 
 // SOME
 
