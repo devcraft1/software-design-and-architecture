@@ -73,6 +73,19 @@ age.every(function (person) {
 }); //false
 
 // SOME
+let obj = { num1: 1, num2: 2, num3: 3, num4: 4, num5: 5 };
+
+var firstEven = null;
+
+// Some returns a boolean value.
+Object.values(obj).some((item) => {
+  // Loop breaks as soon as the condition has been met.
+  // Getting your value, can be used like:
+  if (item == 2) {
+    firstEven = item;
+  }
+  return item % 2 == 0;
+}); // Results in true
 
 // FILTER
 const words = [
