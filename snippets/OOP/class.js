@@ -13,15 +13,56 @@ class Hello {
 const helloInstance = new Hello("john doe");
 console.log(helloInstance);
 
-// Object method
-/// OBJECTS IN JAVASCRIPT
-const testScore = {
-  damon: 89,
-  shawn: 91,
-  keenan: 80,
-  kim: 89,
-};
+// object method
+// parent class animal
+class Animal {
+  constructor(name, weight) {
+    this.name = name;
+    this.weight = weight;
+  }
 
-Object.keys(testScore); // gives all keys
-Object.values(testScore); // gives all values
-Object.entries(testScore); // gives nested arrays of key-value pairs
+  eat() {
+    return `${this.name} is eating!`;
+  }
+
+  sleep() {
+    return `${this.name} is going to sleep!`;
+  }
+
+  wakeUp() {
+    return `${this.name} is waking up!`;
+  }
+}
+//sub class gorilla
+
+class Gorilla extends Animal {
+  constructor(name, weight) {
+    super(name, weight);
+  }
+
+  climbTrees() {
+    return `${this.name} is climbing trees!`;
+  }
+
+  poundChest() {
+    return `${this.name} is pounding its chest!`;
+  }
+
+  showVigour() {
+    return `${super.eat()} ${this.poundChest()}`;
+  }
+
+  dailyRoutine() {
+    return `${super.wakeUp()} ${this.poundChest()} ${super.eat()} ${super.sleep()}`;
+  }
+}
+
+function display(content) {
+  console.log(content);
+}
+
+const gorilla = new Gorilla("George", "160Kg");
+display(gorilla.poundChest());
+display(gorilla.sleep());
+display(gorilla.showVigour());
+display(gorilla.dailyRoutine());
