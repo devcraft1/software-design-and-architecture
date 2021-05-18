@@ -20,7 +20,6 @@ class Animal {
   }
 }
 //sub class gorilla
-
 class Gorilla extends Animal {
   constructor(name, weight) {
     super(name, weight);
