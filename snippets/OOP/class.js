@@ -1,5 +1,4 @@
 // Class
-
 // parent class animal
 class Animal {
   constructor(name, weight) {

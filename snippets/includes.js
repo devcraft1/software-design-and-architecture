@@ -10,7 +10,3 @@ if (array.includes("strin")) {
   console.log("strin can not be found in array");
 }
 
-const list =[1,3,5,5,6,7,8,8,9,5]
-for (let count = 0; count < 90; count++) {
-console.log(list[count])
-}
