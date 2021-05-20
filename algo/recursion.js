@@ -1,3 +1,5 @@
+// Recursion occurs when a  function calls itself
+
 function pow(x, n) {
   if (n == 1) {
     return x;
@@ -8,7 +10,7 @@ function pow(x, n) {
 
 console.log(pow(3, 3)); // 27
 
-var countdown = function (value) {
+const countdown = function (value) {
   if (value > 0) {
     console.log(value);
     return countdown(value - 1);
