@@ -32,6 +32,9 @@ const myList = new LinkedList([
   { id: "a13", value: "Second", next: "a12", head: false },
 ]);
 
+for (let item of myList) {
+  console.log(item); // 'First', 'Second', 'Third', 'Last'
+}
 const list = myList.firstItem();
 
 const listById = myList.findById("a10");
