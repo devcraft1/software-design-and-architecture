@@ -1,4 +1,5 @@
 Events:
+
 Mouse:
 onclick
 The event occurs when the user clicks on an element
