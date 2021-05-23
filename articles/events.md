@@ -177,5 +177,4 @@ User finger is removed from a touch screen
 ontouchmove
 A finger is dragged across the screen
 ontouchstart
-
 Finger is placed on touch screen
