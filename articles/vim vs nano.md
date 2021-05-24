@@ -1,6 +1,6 @@
 <!-- INTRO -->
 
-Vim and Nano are text editors.
+<!-- Vim and Nano are text editors. -->
 
 <!-- VIM -->
 
