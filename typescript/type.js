@@ -19,12 +19,12 @@ log(check);
 log(verify);
 
 // Arrays
-// var arrStr;
-// arrStr = ["SSS", "SWAT"];
-// log(arrStr);
-// var arrNum;
-// arrNum = [1, 3];
-// log(arrNum);
+var arrStr;
+arrStr = ["SSS", "SWAT"];
+log(arrStr);
+var arrNum;
+arrNum = [1, 3];
+log(arrNum);
 
 // Tuples
 var role;
