@@ -2,16 +2,13 @@ var log = function (data) {
   console.log(data);
 };
 
-
 // Strings
 var str = "lets kick off";
 log(str);
 
-
 // Number
 var num = 555;
 log(num);
-
 
 // Boolean
 var check;
@@ -21,21 +18,18 @@ verify = false;
 log(check);
 log(verify);
 
-
 // Arrays
-var arrStr;
-arrStr = ["SSS", "SWAT"];
-log(arrStr);
-var arrNum;
-arrNum = [1, 3];
-log(arrNum);
-
+// var arrStr;
+// arrStr = ["SSS", "SWAT"];
+// log(arrStr);
+// var arrNum;
+// arrNum = [1, 3];
+// log(arrNum);
 
 // Tuples
 var role;
 role = ["customer", 1];
 log(role);
-
 
 //  Enum
 var music;
@@ -47,7 +41,6 @@ var alb = music.ALBUM;
 var artist = music.ARTIST;
 log(alb);
 log(artist);
-
 
 // Any
 
