@@ -2,7 +2,7 @@
 // parent class animal
 class Animal {
   constructor(name, weight) {
-    super(props);
+    super();
     this.name = name;
     this.weight = weight;
   }
