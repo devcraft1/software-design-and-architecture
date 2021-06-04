@@ -1,6 +1,6 @@
 class LinkedList {
   constructor(data) {
-    this.data = data;
+    // this.data = data;
   }
 
   firstItem() {
