@@ -14,4 +14,4 @@ async function async_msg() {
     console.log("Error!", e);
   }
 }
-async_msg(); //output - I am unknown.
+// async_msg(); //output - I am unknown.
