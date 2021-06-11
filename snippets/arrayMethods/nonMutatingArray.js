@@ -144,7 +144,7 @@ console.log(str.slice(-4));
 console.log(str.slice(-9, -5));
 // expected output: "lazy"
 
-console.log(str.slice(0, 2));
-// expected output: "the"
-// Up to and including the last index!!!
-// Different for python.
+// console.log(str.slice(0, 2));
+// // expected output: "the"
+// // Up to and including the last index!!!
+// // Different for python.
