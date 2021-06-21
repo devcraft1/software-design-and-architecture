@@ -21,6 +21,9 @@ for (const iterator of listItem) {
   console.log(iterator.name + " and " + iterator.gender);
 }
 
+for (var i = 0; i < listItem.length; i++) {
+  console.log(listItem[i].name);
+}
 // while loop
 var i = 0;
 while (i < 10) {
