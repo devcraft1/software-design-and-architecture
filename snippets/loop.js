@@ -5,11 +5,6 @@
 // for/of - loops through the values of an iterable object.
 // while - loops through a block of code while a specified condition is true.
 
-var colors = ["red", "blue", "green"];
-for (let i = 0; i < colors.length; i++) {
-  console.log(colors[i]);
-}
-
 var listItem = [
   { name: "myName1", gender: "male" },
   { name: "myName2", gender: "female" },
@@ -17,13 +12,20 @@ var listItem = [
   { name: "myName4", gender: "female" },
 ];
 
-for (const iterator of listItem) {
-  console.log(iterator.name + " and " + iterator.gender);
+// for loop
+for (let i = 0; i < listItem.length; i++) {
+  console.log(listItem[i]);
 }
 
-for (var i = 0; i < listItem.length; i++) {
-  console.log(listItem[i].name);
+for (const iterator of listItem) {
+  console.log(iterator);
 }
+
+for (property in listItem) {
+  // console.log(property);
+  console.log(`${property}:${listItem[property]}`);
+}
+
 // while loop
 var i = 0;
 while (i < 10) {
