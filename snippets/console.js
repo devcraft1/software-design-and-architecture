@@ -5,7 +5,7 @@ console.warn(console.warn());
 console.info(console.info());
 console.debug(console.debug());
 
-//  console.table
+// console.table;
 function Name(first, last) {
   this.first = first;
   this.last = last;
