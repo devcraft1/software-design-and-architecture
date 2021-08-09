@@ -5,6 +5,7 @@ if (person.hasOwnProperty("first_name")) {
   console.log("false");
 }
 
+// correct
 const persons = {
   first_name: "Bob",
   last_name: "Dylan",
