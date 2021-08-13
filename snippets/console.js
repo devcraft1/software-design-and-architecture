@@ -41,10 +41,10 @@ for (let count = 0; count > 4; count++) {
 }
 
 // console.trace
-function initial() {
-  function inner() {
-    console.trace();
-  }
-  inner();
-}
-initial();
+// function initial() {
+//   function inner() {
+//     console.trace();
+//   }
+//   inner();
+// }
+// initial();
