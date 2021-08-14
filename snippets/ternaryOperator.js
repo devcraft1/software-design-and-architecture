@@ -1,4 +1,4 @@
-// condition ? ifTrue : ifFalse
+// condition ? if True : if False
 const condition = 12 + 3;
 const result1 = condition == 15 ? true : false;
 const result2 = condition == 1 ? true : false;
