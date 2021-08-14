@@ -11,7 +11,7 @@ function Name(first, last) {
   this.last = last;
 }
 
-// const john = new Name("john", "smith");
+const john = new Name("john", "smith");
 const jonah = new Name("jonah", "samuel");
 const joseph = new Name("joseph", "seth");
 
