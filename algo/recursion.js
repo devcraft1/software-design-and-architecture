@@ -1,4 +1,4 @@
-Recursion occurs when a  function calls itself
+// Recursion occurs when a  function calls itself
 
 function pow(x, n) {
   if (n == 1) {
