@@ -12,6 +12,7 @@ They include:
 9. Reduce
 10. LastIndexOf
 11. Slice
+12. for
 */
 
 // FOR EACH
@@ -149,3 +150,10 @@ console.log(str.slice(0, 2));
 // expected output: "the"
 // Up to and including the last index!!!
 // Different for python.
+
+// for
+const array1 = ["a", "b", "c"];
+
+for (const element of array1) {
+  console.log(element);
+}
