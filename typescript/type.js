@@ -81,5 +81,5 @@ var UserAccount = /** @class */ (function () {
   }
   return UserAccount;
 })();
-// var createAccount = new UserAccount("dennis", 30, true);
-// log(createAccount);
+var createAccount = new UserAccount("dennis", 30, true);
+log(createAccount);
