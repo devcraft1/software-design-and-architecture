@@ -19,5 +19,3 @@ function getApi() {
   }
 }
 console.log(getApi());
-
-// api
