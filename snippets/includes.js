@@ -9,5 +9,3 @@ if (array.includes('strin')) {
 } else if (!array.includes('strin')) {
   console.log('strin can not be found in array');
 }
-
-// #string
