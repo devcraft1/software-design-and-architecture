@@ -3,7 +3,7 @@ var log = function (data) {
 };
 
 // Strings
-var str = "lets kick off";
+var str = 'lets kick off';
 log(str);
 
 // Number
@@ -20,7 +20,7 @@ log(verify);
 
 // Arrays
 var arrStr;
-arrStr = ["SSS", "SWAT"];
+arrStr = ['SSS', 'SWAT'];
 log(arrStr);
 var arrNum;
 arrNum = [1, 3];
@@ -28,14 +28,14 @@ log(arrNum);
 
 // Tuples
 var role;
-role = ["customer", 1];
+role = ['customer', 1];
 log(role);
 
 //  Enum
 var music;
 (function (music) {
-  music["ARTIST"] = "MJ";
-  music[(music["ALBUM"] = 3)] = "ALBUM";
+  music['ARTIST'] = 'MJ';
+  music[(music['ALBUM'] = 3)] = 'ALBUM';
 })(music || (music = {}));
 var alb = music.ALBUM;
 var artist = music.ARTIST;
@@ -46,17 +46,17 @@ log(artist);
 
 // Avoid any. Use only when data type is unknown.
 var avoidAny;
-avoidAny = "string";
+avoidAny = 'string';
 log(avoidAny);
 avoidAny = 2344;
 log(avoidAny);
 var anyArray;
-anyArray = ["string", 325];
+anyArray = ['string', 325];
 log(anyArray);
 
 // Objects
 var obj = {
-  name: "Doe John",
+  name: 'Doe John',
   age: 60,
   isMale: false,
 };
@@ -64,7 +64,7 @@ log(obj.name);
 log(obj.age);
 log(obj.isMale);
 var user = {
-  name: "John Doe",
+  name: 'John Doe',
   age: 30,
   isMale: true,
 };
@@ -81,5 +81,5 @@ var UserAccount = /** @class */ (function () {
   }
   return UserAccount;
 })();
-var createAccount = new UserAccount("dennis", 30, true);
+var createAccount = new UserAccount('dennis', 30, true);
 log(createAccount);
