@@ -9,4 +9,3 @@ fetch('http://example.com/movies.json')
   .catch((e) => {
     console.log(e);
   });
-//
