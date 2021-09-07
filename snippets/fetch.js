@@ -1,5 +1,5 @@
 // fetch
-fetch("http://example.com/movies.json")
+fetch('http://example.com/movies.json')
   .then((response) => {
     return response.json();
   })
@@ -9,3 +9,4 @@ fetch("http://example.com/movies.json")
   .catch((e) => {
     console.log(e);
   });
+//
