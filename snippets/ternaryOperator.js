@@ -9,3 +9,4 @@ let age = 20;
 let drink =
   age !== 18 ? 'authorized to take alcohol' : 'not authorised to take alcohol';
 console.log(drink);
+//
