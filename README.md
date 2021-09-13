@@ -6,4 +6,4 @@ This repository gives a comprehensive view of problems and possible solutions wi
 
 It is open to constructive contribution and suggestion. Do well to give a tip on how to make better this project.
 
-Thank You. 
+<!-- Thank You. -->
