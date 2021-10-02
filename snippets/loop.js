@@ -18,7 +18,7 @@ for (let i = 0; i < listItem.length; i++) {
 }
 
 for (const iterator of listItem) {
-  console.log(iterator);
+  // console.log(iterator);
 }
 
 for (property in listItem) {
