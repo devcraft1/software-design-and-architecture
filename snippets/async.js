@@ -5,9 +5,6 @@ function hello(name) {
     setTimeout(() => {
       resolve(`I am ${name}`);
     }, 2000);
-    reject((e) => {
-      console.log(e)
-    })
   });
 
 }
