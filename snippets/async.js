@@ -1,9 +1,15 @@
+const { resolve } = require("path/posix");
+
 function hello(name) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(`I am ${name}`);
     }, 2000);
+    reject((e) => {
+      console.log(e)
+    })
   });
+
 }
 async function async_msg() {
   try {
